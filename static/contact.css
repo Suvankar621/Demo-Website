@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#navbar{
+    position:sticky;
+    background-color: #ff5d5d;
+    padding: 14px 4px;
+    
+}
+
+#navbar ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+
+}
+#navbar li a{
+    color:white;
+    text-decoration:none;
+    padding:7px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#navbar li a:hover{
+   color:black;
+}
+#contact{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#contact input{
+    border-radius: 12px;
+    margin: 9px 423px;
+    text-align: center;
+    height: 26px;
+    font-size: 15px;
+}
+.btn{
+    width: 94px;
+    margin: auto;
+    font-size: 23px;
+    border-radius: 15px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 56px;
+    background-color: black;
+    margin-top: 378px;
+}
